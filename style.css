@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f0f0f0;
+}
+
+header h1{
+    text-align: center;
+    font-size: 25px;
+}
+
+.navagation{
+    margin-top: 60px;
+    justify-content: center;
+    display: flex;
+}
+
+.menu nav ul{
+    display: flex;
+    
+}
+
+.menu nav ul li{
+    list-style: none;
+    margin-left: 40px;
+    
+}
+
+.menu nav ul li a{
+    text-decoration: none;
+    background-color: white;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    padding: 8px;
+    border-radius: 4px;
+}
+
+.menu nav ul li a:hover{
+    background-color: #ee2211;
+    color: white;
+}
+
+main{
+    margin-top: 40px;
+}
+
+.dupla_01{
+    display: flex;
+}
+.textos_01{
+    background-color: rgb(255, 255, 255);
+    width: 50%;
+    height: 400px;
+    padding: 50px 100px;
+    font-size: 20px;
+}
+.textos_01 h1{
+    font-size: 28px;
+    text-align: right;
+    margin-bottom: 20px;
+}
+
+.textos_01 button{
+    background-color: #ee2211;
+    border: none;
+    width: 120px;
+    height: 35px;
+    color: white;
+    border-radius: 3px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.textos_01 button:hover{
+    transform: scale(1.1);
+}
+
+.textos_02{
+    width: 50%;
+    height: 400px;
+}
+
+.textos_02 img{
+    width: 100%;
+    height: 400px;
+}
+
+.dupla_02{
+    display: flex;
+    
+}
+
+.textos_03{
+    background-color: #f0f0f0;
+    color: #969696;
+    width: 50%;
+    height: 400px;
+    padding: 160px 160PX;
+}
+.textos_04{
+    background-color: white;
+    height: 400px;
+    width: 50%;
+}
+
+.textos_04{
+    padding: 40px;
+}
+
+.vantagens{
+    font-size: 64px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.icones{
+    margin-bottom: 40px;
+}
+
+.icon{
+    margin-bottom: 15px;
+}
+
+footer{
+    margin-top: 75px;
+    text-align: center;
+    margin-bottom: 75px;
+}
+
+
+.extras{
+    display: none;
+    background-color: red;
+    width: 100%;
+    height: 500px;
+    color: white;
+    text-align: center;
+    padding: 100px;
+    position: absolute;
+}
